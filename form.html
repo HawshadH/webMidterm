@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="form_handler.php" method="POST">
+
+        <h4>Enter your email and password:</h4>
+        <input type="email" name="email" placeholder="Enter your email">
+        <br>
+        <input type="password" name="pass" placeholder="Enter your password">
+        <br><br>
+        <h4>Select your gender:</h4>
+        <input type="radio" name="gender" value="Male" > Male <br>
+        <input type="radio" name="gender" value="Female"> Female <br>
+        <h4>Favorite Color::</h4>
+        <input type="checkbox" name="color[]" value="Pink"> Pink<br>
+        <input type="checkbox" name="color[]" value="Violet"> Violet<br>
+        <input type="checkbox" name="color[]" value="Magenta"> Magenta<br><br>
+        <button type="submit" name="Register">Register</button>
+    </form>
+    
+</body>
+</html>
